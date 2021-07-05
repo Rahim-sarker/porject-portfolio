@@ -7,6 +7,7 @@ h1{
 }
 .flexible-css{
     display: flex;
+    margin-bottom: 120px;
 }
 .color-text{
     color: orange;
@@ -29,5 +30,37 @@ h1{
 #header-bg{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
+}
+#middle-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#ex-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card-view{
+    box-shadow: 10px 10px 40px blue;
+    margin-left: 40px;
+    padding-right: 20px;
+}
+
+#card1-boder{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
     
+}
+
+#card2-boder{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
 }
