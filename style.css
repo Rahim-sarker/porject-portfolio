@@ -5,3 +5,29 @@ body{
 h1{
     font-size: 50px;
 }
+.flexible-css{
+    display: flex;
+}
+.color-text{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+   padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 10%;
+}
+.linkd-button{
+  text-decoration: none;
+  color: aliceblue;
+  background-image: linear-gradient(orange,tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+#header-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
